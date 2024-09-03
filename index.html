@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            container: '#000000',
+            wht: '#ffffff',
+            left: '#121212',
+            multitasker: '#b3b3b3',
+            gentle: '#9ca3af',
+            morning: '#4b5563',
+            can: '#262626'
+          }
+      }
+      }
+    }
+  </script>
+  <style>
+    .scrollbar::-webkit-scrollbar {
+    display: none;
+}
+  </style>
+</head>
+<body class="text-wht bg-container">
+    <div class="grid grid-cols-12 gap-2 h-[90vh] p-2">
+        <!-- left -->
+        <div class="col-span-3 flex flex-col gap-2">
+            <div class="h-[15%] bg-left rounded-md flex flex-col gap-3 justify-center pl-5">
+                <div class="flex space-x-3">
+                    <img src="./icon/home-svgrepo-com.svg" alt="" width="20px">
+                    <span>Home</span>
+                </div>
+                <div class="flex space-x-3">
+                    <img src="./icon/search-svgrepo-com.svg" alt="" width="20px">
+                    <span>Search</span>
+                </div>
+            </div>
+            <div class="h-[85%] bg-left rounded-md">
+              <!-- head -->
+               <div class="h-[20%]">
+                <div class="flex justify-between px-5 pt-3">
+                  <div class="flex space-x-2">
+                    <img src="./icon/library-svgrepo-com.svg" alt="" width="20px">
+                    <p class="capitalize">your library</p>
+                  </div>
+                  <div class="flex space-x-2">
+                    <img src="./icon/plus-large-svgrepo-com.svg" alt="" width="20px">
+                    <img src="./icon/arrow-right-1-svgrepo-com.svg" alt="" width="20px">
+                  </div>
+                </div>
+                <div class="capitalize my-4 px-3 flex justify-between text-sm">
+                  <span class="bg-[#374151] rounded-[100px] px-1">playlist</span>
+                  <span class="bg-[#374151] rounded-[100px] px-1">musics</span>
+                  <span class="bg-[#374151] rounded-[100px] px-1">albums</span>
+                  <span class="bg-[#374151] rounded-[100px] px-1">podcasts & shows</span>
+                </div>
+                <div class="flex items-center justify-between px-2 capitalize">
+                  <img src="./icon/search-svgrepo-com.svg" alt="" width="20px">
+                  <div class="flex items-center space-x-2">
+                    <p>recents</p>
+                    <img src="./icon/arrow-down-svgrepo-com.svg" alt="" width="20px">
+                  </div>
+                </div>
+               </div>
+              <!-- playlist -->
+              <div class="px-2 mt-7 capitalize grid gap-3 h-[350px]  overflow-scroll scrollbar">
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      <img src="./icon/pin-svgrepo-com.svg" alt="" width="20px">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <div class="flex space-x-2">
+                  <img src="./img/heart.jpg" alt="" width="50px" class="rounded-md">
+                  <div>
+                    <h1>liked songs</h1>
+                    <p class="flex text-gentle">
+                      playlist . 1234 songs</p>
+                  </div>
+                </div>
+                <!-- end -->
+              </div>
+            </div>
+        </div>
+        <!-- middle -->
+        <div class="bg-gradient-to-b from-cyan-900 via-gray-900 to-[#171717] col-span-7 p-3 pb-0">
+          <div class="flex justify-between mb-1">
+            <div class="flex space-x-3">
+              <img src="./icon/arrow-left-1-svgrepo-com.svg" alt="" width="30px" class="bg-left rounded-[50%] p-1">
+              <img src="./icon/arrow-right-1-svgrepo-com.svg" alt="" width="30px" class="bg-left rounded-[50%] p-1">
+            </div>
+            <div class="flex space-x-3">
+              <img src="./icon/notification-bell-1397-svgrepo-com.svg" alt="" width="20px">
+              <img src="./icon/users-svgrepo-com.svg" alt="" width="20px">
+              <img src="./icon/user-svgrepo-com.svg" alt="" width="20px">
+            </div>
+          </div>
+          <h3 class="mb-1 font-bold text-3xl">Good mornig</h3>
+          <div class="grid grid-cols-3 gap-x-4 gap-y-3">
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+            <div class="flex space-x-3 bg-morning items-center rounded-sm">
+              <img src="./img/dropsofwater.jpg" alt="" width="100px" class="h-[70px]">
+              <p>discover weekly</p>
+            </div>
+          </div>
+          <h4 class="mb-1 font-bold text-xl">Jump back in</h4>
+          <div class="grid grid-cols-5 gap-5">
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/musics.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/musics.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/musics.jpg" alt=""  class="rounded-[50%]">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/musics.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/musics.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+          <div class="flex justify-between mt-1">
+            <h6 class="mb-1 font-bold text-lg">More of what you like</h6>
+            <p>Show more</p>
+          </div>
+          <div class="h-[80px] overflow-scroll scrollbar grid grid-cols-5 gap-5">
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/guitar.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/guitar.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/guitar.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/guitar.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+            <div class="bg-can p-2 rounded-sm">
+              <img src="./img/guitar.jpg" alt="" width="100%" class="">
+              <h2 class="capitalize text-md">viral hits</h2>
+              <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+            </div>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="bg-can col-span-2 p-2 overflow-scroll scrollbar">
+          <div class="p-2 rounded-sm">
+            <img src="./img/girlslong.jpg" alt="" width="100%" class="h-[250px]">
+            <div class="flex justify-between my-2">
+              <div><h2 class="capitalize text-md">viral hits</h2>
+                <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+              </div>
+              <div class="flex space-x-2">
+                <img src="./icon/love-svgrepo-com.svg" alt="" width="20px">
+                <img src="./icon/menu-horizontal-svgrepo-com.svg" alt="" width="20px">
+              </div>
+            </div>
+          </div>
+          <div class="p-2 rounded-sm">
+            <img src="./img/girls.jpg" alt="" width="100%">
+            <div class="flex justify-between my-2">
+              <div><h2 class="capitalize text-md">viral hits</h2>
+                <p class="text-gentle text-sm">Lorem, ipsum dolor.</p>
+              </div>
+              <div class="flex space-x-2">
+                <img src="./icon/love-svgrepo-com.svg" alt="" width="20px">
+                <img src="./icon/menu-horizontal-svgrepo-com.svg" alt="" width="20px">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class=" w-screen h-[10vh] p-1 px-4 flex justify-between">
+      <div class="flex space-x-3 items-center">
+        <div>
+          <img src="./img/girls.jpg" alt="" width="60px" class="rounded-md">
+        </div>
+        <div>
+          <h2 class="capitalize">cheale lounge</h2>
+          <p class="text-gentle">vital lop</p>
+        </div>
+        <div class="flex space-x-2">
+          <img src="./icon/love-svgrepo-com.svg" alt="" width="20px">
+          <img src="./icon/view-fullscreen-svgrepo-com.svg" alt="" width="20px">
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex space-x-6">
+          <img src="./icon/shuffle-svgrepo-com.svg" alt="" width="20px">
+          <img src="./icon/next-button-svgrepo-com (1).svg" alt="" width="20px">
+          <img src="./icon/play-svgrepo-com.svg" alt="" width="25px" class="bg-wht p-1 rounded-[50%]">
+          <img src="./icon/next-button-svgrepo-com.svg" alt="" width="20px">
+          <img src="./icon/camera-video-off-svgrepo-com.svg" alt="" width="20px">
+        </div>
+        <div class="flex space-x-2 items-center text-sm">
+          <p>0.03</p>
+          <div class="w-[450px] relative">
+            <p class="w-full h-2 bg-gentle rounded-md"></p>
+            <p class="w-[5%] h-2 bg-white rounded-md absolute top-0"></p>
+          </div>
+          <p>4.2</p>
+        </div>
+      </div>
+      <div class="flex space-x-3 items-center">
+        <img src="./icon/library-svgrepo-com.svg" alt="" width="20px">
+        <img src="./icon/queue-svgrepo-com.svg" alt="" width="20px">
+        <img src="./icon/volume-high-svgrepo-com.svg" alt="" width="20px">
+        <div class="w-[50px] relative">
+          <p class="w-full h-2 bg-gentle rounded-md"></p>
+          <p class="w-[50%] h-2 bg-white rounded-md absolute top-0"></p>
+        </div>
+        <img src="./icon/view-fullscreen-svgrepo-com.svg" alt="" width="20px">
+      </div>
+    </div>
+</body>
+</html>
